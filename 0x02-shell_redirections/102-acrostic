@@ -1,2 +1,2 @@
 #!bin/bash
-cut -c 1-1 | fmt
+cut -c 1-1 | fmt | tr -d ' '
